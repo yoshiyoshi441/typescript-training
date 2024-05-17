@@ -10,6 +10,7 @@
     "@eslint/js": "^9.2.0",
     "eslint": "^9.2.0",
     "prettier": "^2",
+    "tsx": "^4.10.4",
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.9.0"
   }
