@@ -9,9 +9,7 @@ export default [
     plugins: {
       ["typescript-eslint"]: tseslint.plugin,
     },
-    files: ["src/**/*.ts"],
-  },
-  {
+    files: ["src/**/*.ts", "tests/**/*.ts"],
     languageOptions: {
       parser: tseslint.parser,
       parserOptions: {
@@ -22,8 +20,6 @@ export default [
         ...globals.node,
       },
     },
-  },
-  {
     rules: {
       semi: "error",
     },
