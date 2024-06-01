@@ -8,7 +8,7 @@ Log4jsConfig.config();
 const logger: log4js.Logger = log4js.getLogger();
 
 async function main() {
-  logger.info("Hello Wrold!!");
+  logger.info("Hello World!!");
   const productClient: ProductClient = new ProductClientImpl();
   const products = await productClient.list();
   logger.info("products: ", products);
